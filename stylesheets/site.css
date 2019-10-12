@@ -1,0 +1,1081 @@
+@charset "UTF-8";
+/* line 1, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_reset.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_reset.scss */
+html, body {
+  width: 100%;
+  height: 100%; }
+
+/* line 31, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_reset.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 34, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+.row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap; }
+  /* line 43, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .row + .row {
+    margin-top: 0.5rem; }
+
+/* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+.xsmall-1 {
+  box-sizing: border-box;
+  width: 8.33333%;
+  padding: 0 12px;
+  flex: 0 0 auto; }
+
+/* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+.xsmall-offset-1 {
+  margin-left: 8.33333%; }
+
+/* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+.xsmall-2 {
+  box-sizing: border-box;
+  width: 16.66667%;
+  padding: 0 12px;
+  flex: 0 0 auto; }
+
+/* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+.xsmall-offset-2 {
+  margin-left: 16.66667%; }
+
+/* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+.xsmall-3 {
+  box-sizing: border-box;
+  width: 25%;
+  padding: 0 12px;
+  flex: 0 0 auto; }
+
+/* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+.xsmall-offset-3 {
+  margin-left: 25%; }
+
+/* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+.xsmall-4 {
+  box-sizing: border-box;
+  width: 33.33333%;
+  padding: 0 12px;
+  flex: 0 0 auto; }
+
+/* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+.xsmall-offset-4 {
+  margin-left: 33.33333%; }
+
+/* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+.xsmall-5 {
+  box-sizing: border-box;
+  width: 41.66667%;
+  padding: 0 12px;
+  flex: 0 0 auto; }
+
+/* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+.xsmall-offset-5 {
+  margin-left: 41.66667%; }
+
+/* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+.xsmall-6 {
+  box-sizing: border-box;
+  width: 50%;
+  padding: 0 12px;
+  flex: 0 0 auto; }
+
+/* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+.xsmall-offset-6 {
+  margin-left: 50%; }
+
+/* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+.xsmall-7 {
+  box-sizing: border-box;
+  width: 58.33333%;
+  padding: 0 12px;
+  flex: 0 0 auto; }
+
+/* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+.xsmall-offset-7 {
+  margin-left: 58.33333%; }
+
+/* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+.xsmall-8 {
+  box-sizing: border-box;
+  width: 66.66667%;
+  padding: 0 12px;
+  flex: 0 0 auto; }
+
+/* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+.xsmall-offset-8 {
+  margin-left: 66.66667%; }
+
+/* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+.xsmall-9 {
+  box-sizing: border-box;
+  width: 75%;
+  padding: 0 12px;
+  flex: 0 0 auto; }
+
+/* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+.xsmall-offset-9 {
+  margin-left: 75%; }
+
+/* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+.xsmall-10 {
+  box-sizing: border-box;
+  width: 83.33333%;
+  padding: 0 12px;
+  flex: 0 0 auto; }
+
+/* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+.xsmall-offset-10 {
+  margin-left: 83.33333%; }
+
+/* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+.xsmall-11 {
+  box-sizing: border-box;
+  width: 91.66667%;
+  padding: 0 12px;
+  flex: 0 0 auto; }
+
+/* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+.xsmall-offset-11 {
+  margin-left: 91.66667%; }
+
+/* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+.xsmall-12 {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 12px;
+  flex: 0 0 auto; }
+
+/* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+.xsmall-offset-12 {
+  margin-left: 100%; }
+
+@media only screen and (min-width: 321px) {
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .small-1 {
+    box-sizing: border-box;
+    width: 8.33333%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .small-offset-1 {
+    margin-left: 8.33333%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .small-2 {
+    box-sizing: border-box;
+    width: 16.66667%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .small-offset-2 {
+    margin-left: 16.66667%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .small-3 {
+    box-sizing: border-box;
+    width: 25%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .small-offset-3 {
+    margin-left: 25%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .small-4 {
+    box-sizing: border-box;
+    width: 33.33333%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .small-offset-4 {
+    margin-left: 33.33333%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .small-5 {
+    box-sizing: border-box;
+    width: 41.66667%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .small-offset-5 {
+    margin-left: 41.66667%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .small-6 {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .small-offset-6 {
+    margin-left: 50%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .small-7 {
+    box-sizing: border-box;
+    width: 58.33333%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .small-offset-7 {
+    margin-left: 58.33333%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .small-8 {
+    box-sizing: border-box;
+    width: 66.66667%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .small-offset-8 {
+    margin-left: 66.66667%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .small-9 {
+    box-sizing: border-box;
+    width: 75%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .small-offset-9 {
+    margin-left: 75%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .small-10 {
+    box-sizing: border-box;
+    width: 83.33333%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .small-offset-10 {
+    margin-left: 83.33333%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .small-11 {
+    box-sizing: border-box;
+    width: 91.66667%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .small-offset-11 {
+    margin-left: 91.66667%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .small-12 {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .small-offset-12 {
+    margin-left: 100%; } }
+@media only screen and (min-width: 721px) {
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .medium-1 {
+    box-sizing: border-box;
+    width: 8.33333%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .medium-offset-1 {
+    margin-left: 8.33333%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .medium-2 {
+    box-sizing: border-box;
+    width: 16.66667%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .medium-offset-2 {
+    margin-left: 16.66667%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .medium-3 {
+    box-sizing: border-box;
+    width: 25%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .medium-offset-3 {
+    margin-left: 25%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .medium-4 {
+    box-sizing: border-box;
+    width: 33.33333%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .medium-offset-4 {
+    margin-left: 33.33333%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .medium-5 {
+    box-sizing: border-box;
+    width: 41.66667%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .medium-offset-5 {
+    margin-left: 41.66667%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .medium-6 {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .medium-offset-6 {
+    margin-left: 50%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .medium-7 {
+    box-sizing: border-box;
+    width: 58.33333%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .medium-offset-7 {
+    margin-left: 58.33333%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .medium-8 {
+    box-sizing: border-box;
+    width: 66.66667%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .medium-offset-8 {
+    margin-left: 66.66667%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .medium-9 {
+    box-sizing: border-box;
+    width: 75%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .medium-offset-9 {
+    margin-left: 75%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .medium-10 {
+    box-sizing: border-box;
+    width: 83.33333%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .medium-offset-10 {
+    margin-left: 83.33333%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .medium-11 {
+    box-sizing: border-box;
+    width: 91.66667%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .medium-offset-11 {
+    margin-left: 91.66667%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .medium-12 {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .medium-offset-12 {
+    margin-left: 100%; } }
+@media only screen and (min-width: 1025px) {
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .large-1 {
+    box-sizing: border-box;
+    width: 8.33333%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .large-offset-1 {
+    margin-left: 8.33333%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .large-2 {
+    box-sizing: border-box;
+    width: 16.66667%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .large-offset-2 {
+    margin-left: 16.66667%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .large-3 {
+    box-sizing: border-box;
+    width: 25%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .large-offset-3 {
+    margin-left: 25%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .large-4 {
+    box-sizing: border-box;
+    width: 33.33333%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .large-offset-4 {
+    margin-left: 33.33333%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .large-5 {
+    box-sizing: border-box;
+    width: 41.66667%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .large-offset-5 {
+    margin-left: 41.66667%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .large-6 {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .large-offset-6 {
+    margin-left: 50%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .large-7 {
+    box-sizing: border-box;
+    width: 58.33333%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .large-offset-7 {
+    margin-left: 58.33333%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .large-8 {
+    box-sizing: border-box;
+    width: 66.66667%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .large-offset-8 {
+    margin-left: 66.66667%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .large-9 {
+    box-sizing: border-box;
+    width: 75%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .large-offset-9 {
+    margin-left: 75%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .large-10 {
+    box-sizing: border-box;
+    width: 83.33333%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .large-offset-10 {
+    margin-left: 83.33333%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .large-11 {
+    box-sizing: border-box;
+    width: 91.66667%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .large-offset-11 {
+    margin-left: 91.66667%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .large-12 {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .large-offset-12 {
+    margin-left: 100%; } }
+@media only screen and (min-width: 1441px) {
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xlarge-1 {
+    box-sizing: border-box;
+    width: 8.33333%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xlarge-offset-1 {
+    margin-left: 8.33333%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xlarge-2 {
+    box-sizing: border-box;
+    width: 16.66667%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xlarge-offset-2 {
+    margin-left: 16.66667%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xlarge-3 {
+    box-sizing: border-box;
+    width: 25%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xlarge-offset-3 {
+    margin-left: 25%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xlarge-4 {
+    box-sizing: border-box;
+    width: 33.33333%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xlarge-offset-4 {
+    margin-left: 33.33333%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xlarge-5 {
+    box-sizing: border-box;
+    width: 41.66667%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xlarge-offset-5 {
+    margin-left: 41.66667%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xlarge-6 {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xlarge-offset-6 {
+    margin-left: 50%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xlarge-7 {
+    box-sizing: border-box;
+    width: 58.33333%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xlarge-offset-7 {
+    margin-left: 58.33333%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xlarge-8 {
+    box-sizing: border-box;
+    width: 66.66667%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xlarge-offset-8 {
+    margin-left: 66.66667%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xlarge-9 {
+    box-sizing: border-box;
+    width: 75%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xlarge-offset-9 {
+    margin-left: 75%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xlarge-10 {
+    box-sizing: border-box;
+    width: 83.33333%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xlarge-offset-10 {
+    margin-left: 83.33333%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xlarge-11 {
+    box-sizing: border-box;
+    width: 91.66667%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xlarge-offset-11 {
+    margin-left: 91.66667%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xlarge-12 {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xlarge-offset-12 {
+    margin-left: 100%; } }
+@media only screen and (min-width: 1921px) {
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xxlarge-1 {
+    box-sizing: border-box;
+    width: 8.33333%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xxlarge-offset-1 {
+    margin-left: 8.33333%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xxlarge-2 {
+    box-sizing: border-box;
+    width: 16.66667%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xxlarge-offset-2 {
+    margin-left: 16.66667%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xxlarge-3 {
+    box-sizing: border-box;
+    width: 25%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xxlarge-offset-3 {
+    margin-left: 25%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xxlarge-4 {
+    box-sizing: border-box;
+    width: 33.33333%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xxlarge-offset-4 {
+    margin-left: 33.33333%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xxlarge-5 {
+    box-sizing: border-box;
+    width: 41.66667%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xxlarge-offset-5 {
+    margin-left: 41.66667%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xxlarge-6 {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xxlarge-offset-6 {
+    margin-left: 50%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xxlarge-7 {
+    box-sizing: border-box;
+    width: 58.33333%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xxlarge-offset-7 {
+    margin-left: 58.33333%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xxlarge-8 {
+    box-sizing: border-box;
+    width: 66.66667%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xxlarge-offset-8 {
+    margin-left: 66.66667%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xxlarge-9 {
+    box-sizing: border-box;
+    width: 75%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xxlarge-offset-9 {
+    margin-left: 75%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xxlarge-10 {
+    box-sizing: border-box;
+    width: 83.33333%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xxlarge-offset-10 {
+    margin-left: 83.33333%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xxlarge-11 {
+    box-sizing: border-box;
+    width: 91.66667%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xxlarge-offset-11 {
+    margin-left: 91.66667%; }
+
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xxlarge-12 {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 12px;
+    flex: 0 0 auto; }
+
+  /* line 27, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_simple-grid.scss */
+  .xxlarge-offset-12 {
+    margin-left: 100%; } }
+/* line 4, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_typography.scss */
+.serif {
+  font-family: "Merriweather", serif; }
+
+/* line 8, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_typography.scss */
+.sans-serif {
+  font-family: "Archivo Narrow", sans-serif; }
+
+/* line 12, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_typography.scss */
+h1, h2, h3 {
+  font-family: "Merriweather", serif;
+  color: #262626;
+  line-height: 1.8em; }
+
+/* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_typography.scss */
+h4, h5, h6 {
+  color: #262626;
+  line-height: 1.8em;
+  font-size: 1.3em; }
+
+/* line 24, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_typography.scss */
+h1 {
+  font-size: 3.5rem;
+  padding: 0;
+  margin-bottom: 6rem; }
+
+/* line 30, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_typography.scss */
+p, body {
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #595959; }
+
+/* line 37, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_typography.scss */
+.quote, .quote-cont {
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 3rem;
+  margin-top: 1rem;
+  text-align: center; }
+  /* line 42, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_typography.scss */
+  .quote.highlight, .quote-cont.highlight {
+    color: #798C35;
+    font-size: 4.2rem; }
+
+/* line 48, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_typography.scss */
+.quote::before {
+  content: '“';
+  font-size: 5rem; }
+
+/* line 1, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_header.scss */
+#header {
+  height: 50px;
+  color: #798C35;
+  border-bottom: 1px solid #798C35;
+  margin-bottom: 2rem; }
+  /* line 7, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_header.scss */
+  #header h3 {
+    text-transform: uppercase; }
+
+/* line 1, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_story.scss */
+#stories {
+  margin-top: 5rem;
+  width: 90%; }
+
+/* line 6, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_story.scss */
+.story {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 36px; }
+  /* line 12, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_story.scss */
+  .story img {
+    width: 150px;
+    height: 100px;
+    overflow: hidden; }
+  /* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_story.scss */
+  .story .story-deets {
+    padding-left: 20px; }
+    /* line 21, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_story.scss */
+    .story .story-deets h4 {
+      line-height: 1em; }
+      /* line 22, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_story.scss */
+      .story .story-deets h4 a {
+        text-decoration: none;
+        color: inherit; }
+        /* line 26, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_story.scss */
+        .story .story-deets h4 a:hover {
+          color: #798C35;
+          text-decoration: underline; }
+
+/* line 37, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_story.scss */
+#localStories img {
+  width: 90%;
+  display: block;
+  height: auto;
+  margin: auto; }
+
+/* line 45, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_story.scss */
+.storyImg {
+  width: 60%;
+  height: auto;
+  margin: auto; }
+
+/* line 52, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_story.scss */
+#story2 {
+  margin-top: 8rem; }
+
+/* line 1, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_timeline.scss */
+#timeline {
+  margin-top: 6rem; }
+  /* line 3, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_timeline.scss */
+  #timeline .timespot {
+    border-left: 2px solid #798C35;
+    padding-left: 24px;
+    position: relative;
+    padding-bottom: 36px; }
+    /* line 9, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_timeline.scss */
+    #timeline .timespot .date {
+      font-size: 1.2rem;
+      font-weight: 800;
+      color: #262626; }
+    /* line 16, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_timeline.scss */
+    #timeline .timespot .event {
+      margin-top: 1rem; }
+    /* line 20, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_timeline.scss */
+    #timeline .timespot::before {
+      content: ' ';
+      height: 20px;
+      width: 20px;
+      background-color: #798C35;
+      display: block;
+      position: absolute;
+      left: -10px;
+      border-radius: 50%; }
+
+/* line 11, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+body {
+  background: url("../images/dot-grid.png"); }
+
+/* line 14, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+p {
+  margin-bottom: 2rem; }
+
+/* line 18, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+section {
+  width: 90%;
+  margin: auto; }
+
+/* line 23, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+.border {
+  position: relative;
+  padding-top: 25px;
+  padding-right: 25px; }
+  /* line 28, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+  .border::after {
+    content: '';
+    background-color: #798C35;
+    right: 45px;
+    left: 0;
+    top: -4px;
+    height: 3px;
+    position: absolute;
+    display: block; }
+  /* line 39, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+  .border::before {
+    background-color: #798C35;
+    content: '';
+    height: 165px;
+    position: absolute;
+    right: -12px;
+    top: -27px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    width: 2px; }
+  /* line 51, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+  .border.dark::after {
+    height: 1px; }
+  /* line 54, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+  .border.dark::before {
+    width: 1px; }
+  /* line 57, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+  .border.dark::after, .border.dark::before {
+    background-color: #595959; }
+
+/* line 63, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+#details {
+  font-family: monospace;
+  font-size: 1.3rem;
+  margin-bottom: 10px; }
+  /* line 68, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+  #details span {
+    margin-right: 6px; }
+  /* line 72, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+  #details span.category {
+    font-weight: bold; }
+
+/* line 77, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+#storyToggle,
+#toneToggle {
+  margin: 16px 0; }
+  /* line 81, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+  #storyToggle span,
+  #toneToggle span {
+    padding: 2px 4px;
+    margin-right: 10px;
+    font-family: monospace;
+    font-size: 1.3rem;
+    cursor: pointer; }
+    /* line 88, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+    #storyToggle span.highlight, #storyToggle span.selected, #storyToggle span:hover,
+    #toneToggle span.highlight,
+    #toneToggle span.selected,
+    #toneToggle span:hover {
+      color: white;
+      background-color: #798C35;
+      font-weight: bold; }
+
+/* line 97, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+#toneToggle {
+  padding-left: 36px; }
+
+/* line 100, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+#storyToggle {
+  margin-bottom: 48px; }
+  /* line 103, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+  #storyToggle span {
+    border: 1px solid #798C35; }
+
+/* line 108, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+.hide {
+  display: none; }
+
+/* line 112, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+.credit {
+  width: 100%;
+  text-align: right;
+  font-size: .8em; }
+
+/* line 118, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+iframe {
+  width: 90%;
+  margin: auto;
+  height: 650px; }
