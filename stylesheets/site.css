@@ -943,6 +943,10 @@ p, body {
 #story2 {
   margin-top: 8rem; }
 
+/* line 56, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_story.scss */
+audio {
+  width: 100%; }
+
 /* line 1, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/partials/_timeline.scss */
 #timeline {
   margin-top: 6rem; }
@@ -1011,32 +1015,29 @@ section {
     transform: rotate(-45deg);
     width: 2px; }
   /* line 51, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
-  .border.dark::after {
-    height: 1px; }
-  /* line 54, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
   .border.dark::before {
     width: 1px; }
-  /* line 57, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+  /* line 54, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
   .border.dark::after, .border.dark::before {
     background-color: #595959; }
 
-/* line 63, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+/* line 60, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
 #details {
   font-family: monospace;
   font-size: 1.3rem;
   margin-bottom: 10px; }
-  /* line 68, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+  /* line 65, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
   #details span {
     margin-right: 6px; }
-  /* line 72, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+  /* line 69, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
   #details span.category {
     font-weight: bold; }
 
-/* line 77, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+/* line 74, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
 #storyToggle,
 #toneToggle {
   margin: 16px 0; }
-  /* line 81, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+  /* line 78, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
   #storyToggle span,
   #toneToggle span {
     padding: 2px 4px;
@@ -1044,7 +1045,7 @@ section {
     font-family: monospace;
     font-size: 1.3rem;
     cursor: pointer; }
-    /* line 88, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+    /* line 85, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
     #storyToggle span.highlight, #storyToggle span.selected, #storyToggle span:hover,
     #toneToggle span.highlight,
     #toneToggle span.selected,
@@ -1053,29 +1054,33 @@ section {
       background-color: #798C35;
       font-weight: bold; }
 
-/* line 97, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+/* line 94, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
 #toneToggle {
   padding-left: 36px; }
 
-/* line 100, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+/* line 97, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
 #storyToggle {
   margin-bottom: 48px; }
-  /* line 103, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+  /* line 100, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
   #storyToggle span {
     border: 1px solid #798C35; }
 
-/* line 108, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+/* line 105, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
 .hide {
   display: none; }
 
-/* line 112, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+/* line 109, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
 .credit {
   width: 100%;
   text-align: right;
   font-size: .8em; }
 
-/* line 118, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+/* line 115, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
 iframe {
-  width: 90%;
+  width: 100%;
   margin: auto;
   height: 650px; }
+
+/* line 121, /Users/kavyasukumar/Projects/bz-moreworld/source/stylesheets/site.css.scss */
+#footer {
+  border-top: 2px solid #262626; }
